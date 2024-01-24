@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eff1f1;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: 'EB Garamond', serif;
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 2px solid gray; */
+    background-image: url(./birthday-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* outline: #000; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 60px 20px;
+}
+
+.date-of-birth {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 0, 30px, 0, 2px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 0 2rem;
+}
+
+.Countdown-el {
+    text-align: center;
+
+}
+
+.countdown-container span {
+    font-size: 1.5rem;
+}
+
+#birthDate {
+    padding: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#bir #DOB {
+    font-size: medium;
+    font-size: 1rem;
+    margin: 20px;
+}
+
+#submit {
+    width: 15%;
+    min-width: 50px;
+    min-height: 15px;
+    color: #000;
+    font-size: small;
+    border: 2px solid gray;
+    border-radius: 10px;
+    outline: none;
+    display: flex;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+#submit:hover {
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+#submit:hover,
+#submit:focus {
+    filter: brightness(120%);
+    box-shadow: 4px 2px 5px #000;
+}
